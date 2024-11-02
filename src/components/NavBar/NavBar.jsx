@@ -40,7 +40,7 @@ const NavBar = () => {
   </div>
   <div className="navbar-end gap-3 ">
     <a className="btn bg-lime-500 text-white">Sign In</a>
-    <a className="btn bg-sky-400 text-white">Sign Up</a>
+    <a className="btn bg-sky-500 text-white">Sign Up</a>
   </div>
 </div>
     );
