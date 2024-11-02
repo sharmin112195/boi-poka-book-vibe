@@ -19,7 +19,7 @@ const BookDetail = () => {
     }
     
     return (
-        <div className="hero h-[600px] py-8">
+        <div className="hero min-h-[600px] py-8">
   <div className="hero-content flex-col lg:flex-row">
     <div className="bg-gray-100 py-12 rounded-2xl px-24">
     <img
