@@ -56,7 +56,7 @@ const ListedBooks = () => {
       </div>
     </TabPanel>
     <TabPanel>
-      <h2 className='text-2xl'>My Wish List</h2>
+      <h2 className='text-2xl'>My Wish List: {wishList.length}</h2>
       {
         wishList.map(book => <Book key={book.bookId} book={book}></Book>)
       }
