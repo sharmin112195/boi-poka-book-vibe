@@ -10,6 +10,8 @@ return []
 }
 }
 
+
+
 const addToStoredReadList = (id) => {
  const storedList = getStoredReadList();
  if(storedList.includes(id)){
@@ -46,4 +48,4 @@ const addToStoredWishList = (id) => {
         localStorage.setItem('wish-list', storedWishListStr);
     }
 }
-export{addToStoredReadList, addToStoredWishList}
+export{addToStoredReadList, addToStoredWishList, getStoredReadList, getStoredWishList}
